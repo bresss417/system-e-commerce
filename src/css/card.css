@@ -1,0 +1,92 @@
+
+
+.container {
+  max-width: 200px;
+  margin: 2rem auto;
+}
+.spinner * {
+  text-align: center;
+}
+.spinner input::-webkit-outer-spin-button,
+.spinner input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+.spinner input:disabled {
+  background-color: white;
+}
+  
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 1%;
+  bottom: 26px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 10px;
+  transition: 0.2s ease all;
+}
+
+.dual-list .list-group {
+    margin-top: 8px;
+}
+.list-left li, .list-right li {
+    cursor: pointer;
+}
+.list-arrows {
+    padding-top: 100px;
+}
+.list-arrows button {
+    margin-bottom: 20px;
+}
+
+.viewbtn {
+	float: right;
+	padding: 0.5px 6px;
+	background-color: #4CAF50; /* Green */
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 0 4px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+ .btnx {
+	 background-color: white; 
+  	 color: black; 
+  	 border: 2px solid #4CAF50;
+}
+.btnx:hover {
+	background-color: #4CAF50;
+  	color: white;
+}
+.btnp {
+	 background-color: white; 
+  	 color: black; 
+  	 border: 2px solid #f3f706;
+}
+.btnp:hover {
+	background-color: #f3f706;
+  	color: white;
+}
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
